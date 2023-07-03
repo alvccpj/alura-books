@@ -1,57 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-br>
+<html>
+
 <head>
-    <meta charset=" UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Alura Books</title>
-<link rel="stylesheet" href="styles/style.css">
-<link rel="stylesheet" href="styles/reset.css">
-<link rel="stylesheet" href="styles/header.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Books</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="cabecalho">
+    <header class="cabeçalho">
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
             <label for="menu">
-                <span class="cabecalho__menu container__imagem"></span>
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
             </label>
             <ul class="lista-menu">
-                <li class="lista-menu__titulo">
-                    <a href="#">Categorias</a>
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#">PROGRAMAÇÃO</a>
+                    <a href="#" class="lista-menu__link">Front-end</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#">FRONT-END</a>
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#">INFRAESTRUTURA</a>
+                    <a href="#" class="lista-menu__link">Business</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#">BUSINESS</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="#">DESIGN E UX</a>
+                    <a href="#" class="lista-menu__link">Design & UX</a>
                 </li>
             </ul>
-            <img src="assets/Logo.png" alt="Logo da Alura Books" class="container__imagem">
+            <img src="assets/Logo.png" alt="Logo da Alurabooks" class="container__imagem">
         </div>
 
         <div class="container">
-            <a href="#">
-                <img src="assets/Favoritos.png" alt="Meus favoritos" class="container__imagem">
-            </a>
-            <a href="#">
-                <img src="assets/Compras.png" alt="Carrinho de compras" class="container__imagem">
-            </a>
-            <a href="#">
-                <img src="assets/Usuario.png" alt="Meu perfil" class="container__imagem">
-            </a>
+            <a href="#"><img src="assets/Favoritos.png" alt="Meus favoritos" class="container__imagem"></a>
+            <a href="#"><img src="assets/Compras.png" alt="Carrinhos de compras" class="container__imagem"></a>
+            <a href="#"><img src="assets/Usuario.png" alt="Meu perfil" class="container__imagem"></a>
         </div>
     </header>
 
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/image 25.png" alt="Apache Kfak e Spring Boot"></div>
+                <div class="swiper-slide"><img src="assets/image 26.png" alt="JavaScript Assertivo"></div>
+                <div class="swiper-slide"><img src="assets/image 27.png" alt="Liderança em design"></div>
+                <div class="swiper-slide"><img src="assets/Guia Front-end.png" alt="Guia de Front-End"></div>
+                <div class="swiper-slide"><img src="assets/Acessibilidade.png" alt="Acessibilidade"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Últimos lançamentos</h2>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </body>
 
 </html>

@@ -6,22 +6,9 @@
     position: relative;
 }
 
-.cabeçalho__menu-hamburguer {
-    width: 24px;
-    height: 24px;
-    background-image: url("../assets/Menu.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    display: inline-block;
-}
-
 .container {
     display: flex;
     align-items: center;
-}
-
-.container__imagem {
-    padding: 1em;
 }
 
 .container__botao {
@@ -32,6 +19,19 @@
     display: block;
 }
 
+.cabeçalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.container__imagem {
+    padding: 1em;
+}
+
 .lista-menu {
     display: none;
     position: absolute;
@@ -39,15 +39,15 @@
     width: 60vw;
 }
 
-.lista-menu__titulo {
-    color: var(--laranja);
-    font-weight: 700;
-}
-
 .lista-menu__titulo,
 .lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
+}
+
+.lista-menu__titulo {
+    color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link {
@@ -57,3 +57,4 @@
     background-clip: text;
     text-transform: uppercase;
 }
+

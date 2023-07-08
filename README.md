@@ -1,5 +1,21 @@
-<h1>Alura Books</h1>
+# Portfólio 
+Olá, Bem vindo ao meu projeto da Alura Books.
 
-> Project status: developing...
+![alura books issue](https://github.com/alvccpj/alura-books/assets/103002592/207c597f-ffe5-40a1-831e-4fbe41a46a9f)
 
-- Creating responsives layouts for Alura Book's site.
+## Ferramentas utilizadas:
+
+* HTML
+
+* CSS
+
+* Flex-box
+
+* Grid
+
+* Utilizei o Vercel para hospedar o portfólio, sem pagar por um domínio.
+## Feito por:
+
+### Álvaro Jordão
+
+

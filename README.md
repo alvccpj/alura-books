@@ -11,8 +11,6 @@ Olá, Bem vindo ao meu projeto da Alura Books.
 
 * Flex-box
 
-* Grid
-
 * Utilizei o Vercel para hospedar o portfólio, sem pagar por um domínio.
 ## Feito por:
 
